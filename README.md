@@ -1,2 +1,1 @@
-# commitmentos
-CommitmentOS MVP: make promises visible, owned, and finishable.
+# CommitmentOS MVP\n\nA responsive MVP that turns promises into visible, owned, finishable work.\n\n## Implemented\n- Responsive dashboard\n- Today, All commitments, Waiting on, Sources views\n- Add, review, complete, and reopen commitment flows\n- Local persistence for demo mode\n- XSS-safe rendering\n- Vercel health endpoint\n- Supabase schema with auth-linked persistence and RLS\n\n## Run\n`npm test`\n\nThe app is intentionally usable before OAuth setup. Production persistence requires the Supabase environment variables and client wiring to be configured.
